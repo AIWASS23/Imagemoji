@@ -9,9 +9,14 @@ import SwiftUI
 
 @main
 struct ImagemojiApp: App {
+
+    @StateObject var document = ImagemojiDocument()
+    @StateObject var paletteStore = PaletteStore(named: "Default")
+    
     var body: some Scene {
-        WindowGroup {
-            ContentView()
+        DocumentGroup(newDocument: { ImagemojiDocument() }) { config in
+            ImagemojiDocumentView(document: config.document)
+                .environmentObject(paletteStore)
         }
     }
 }

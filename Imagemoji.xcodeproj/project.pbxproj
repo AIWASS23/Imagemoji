@@ -7,13 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		141882B72909701B007CD2EB /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141882B62909701B007CD2EB /* Camera.swift */; };
+		141882B92909705A007CD2EB /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141882B82909705A007CD2EB /* Photo.swift */; };
+		141882BB290970C0007CD2EB /* OS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141882BA290970C0007CD2EB /* OS.swift */; };
+		141882BD290972D2007CD2EB /* Mac.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141882BC290972D2007CD2EB /* Mac.swift */; };
+		142D6B2D28F03FD100894167 /* Thash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142D6B2C28F03FD100894167 /* Thash.swift */; };
+		142D6B2F28F0405800894167 /* PaletteChooses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142D6B2E28F0405800894167 /* PaletteChooses.swift */; };
+		142D6B3128F04E0700894167 /* PaletteEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142D6B3028F04E0700894167 /* PaletteEditor.swift */; };
+		142D6B3328F0603700894167 /* PaletteManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142D6B3228F0603700894167 /* PaletteManager.swift */; };
 		14349F6428EC56F800B85C2A /* ImagemojiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14349F6328EC56F800B85C2A /* ImagemojiApp.swift */; };
-		14349F6628EC56F800B85C2A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14349F6528EC56F800B85C2A /* ContentView.swift */; };
+		14349F6628EC56F800B85C2A /* ImagemojiDocumentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14349F6528EC56F800B85C2A /* ImagemojiDocumentView.swift */; };
 		14349F6828EC56F900B85C2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14349F6728EC56F900B85C2A /* Assets.xcassets */; };
 		14349F6B28EC56F900B85C2A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14349F6A28EC56F900B85C2A /* Preview Assets.xcassets */; };
 		14349F7528EC56F900B85C2A /* ImagemojiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14349F7428EC56F900B85C2A /* ImagemojiTests.swift */; };
 		14349F7F28EC56F900B85C2A /* ImagemojiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14349F7E28EC56F900B85C2A /* ImagemojiUITests.swift */; };
 		14349F8128EC56F900B85C2A /* ImagemojiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14349F8028EC56F900B85C2A /* ImagemojiUITestsLaunchTests.swift */; };
+		14349F8E28EC579100B85C2A /* ImagemojiModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14349F8D28EC579100B85C2A /* ImagemojiModel.swift */; };
+		14349F9028EC5D3A00B85C2A /* ImagemojiModelBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14349F8F28EC5D3A00B85C2A /* ImagemojiModelBackground.swift */; };
+		14349F9228EC5F6A00B85C2A /* ImagemojiDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14349F9128EC5F6A00B85C2A /* ImagemojiDocument.swift */; };
+		14349F9428EC64BA00B85C2A /* UtilityExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14349F9328EC64BA00B85C2A /* UtilityExtensions.swift */; };
+		14349F9628EC684D00B85C2A /* UtilityViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14349F9528EC684D00B85C2A /* UtilityViews.swift */; };
+		14349F9828EF09F300B85C2A /* PaletteStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14349F9728EF09F300B85C2A /* PaletteStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +48,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		141882B62909701B007CD2EB /* Camera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Camera.swift; sourceTree = "<group>"; };
+		141882B82909705A007CD2EB /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		141882BA290970C0007CD2EB /* OS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OS.swift; sourceTree = "<group>"; };
+		141882BC290972D2007CD2EB /* Mac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mac.swift; sourceTree = "<group>"; };
+		142D6B2C28F03FD100894167 /* Thash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thash.swift; sourceTree = "<group>"; };
+		142D6B2E28F0405800894167 /* PaletteChooses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaletteChooses.swift; sourceTree = "<group>"; };
+		142D6B3028F04E0700894167 /* PaletteEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaletteEditor.swift; sourceTree = "<group>"; };
+		142D6B3228F0603700894167 /* PaletteManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaletteManager.swift; sourceTree = "<group>"; };
 		14349F6028EC56F800B85C2A /* Imagemoji.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Imagemoji.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14349F6328EC56F800B85C2A /* ImagemojiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagemojiApp.swift; sourceTree = "<group>"; };
-		14349F6528EC56F800B85C2A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		14349F6528EC56F800B85C2A /* ImagemojiDocumentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagemojiDocumentView.swift; sourceTree = "<group>"; };
 		14349F6728EC56F900B85C2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		14349F6A28EC56F900B85C2A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		14349F7028EC56F900B85C2A /* ImagemojiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImagemojiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +66,13 @@
 		14349F7A28EC56F900B85C2A /* ImagemojiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImagemojiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		14349F7E28EC56F900B85C2A /* ImagemojiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagemojiUITests.swift; sourceTree = "<group>"; };
 		14349F8028EC56F900B85C2A /* ImagemojiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagemojiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		14349F8D28EC579100B85C2A /* ImagemojiModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagemojiModel.swift; sourceTree = "<group>"; };
+		14349F8F28EC5D3A00B85C2A /* ImagemojiModelBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagemojiModelBackground.swift; sourceTree = "<group>"; };
+		14349F9128EC5F6A00B85C2A /* ImagemojiDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagemojiDocument.swift; sourceTree = "<group>"; };
+		14349F9328EC64BA00B85C2A /* UtilityExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityExtensions.swift; sourceTree = "<group>"; };
+		14349F9528EC684D00B85C2A /* UtilityViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityViews.swift; sourceTree = "<group>"; };
+		14349F9728EF09F300B85C2A /* PaletteStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaletteStore.swift; sourceTree = "<group>"; };
+		14A8AB2328F20EFB0070B10F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +123,23 @@
 		14349F6228EC56F800B85C2A /* Imagemoji */ = {
 			isa = PBXGroup;
 			children = (
+				14A8AB2328F20EFB0070B10F /* Info.plist */,
 				14349F6328EC56F800B85C2A /* ImagemojiApp.swift */,
-				14349F6528EC56F800B85C2A /* ContentView.swift */,
+				14349F6528EC56F800B85C2A /* ImagemojiDocumentView.swift */,
+				142D6B2E28F0405800894167 /* PaletteChooses.swift */,
+				142D6B3028F04E0700894167 /* PaletteEditor.swift */,
+				142D6B3228F0603700894167 /* PaletteManager.swift */,
+				14349F9128EC5F6A00B85C2A /* ImagemojiDocument.swift */,
+				14349F9728EF09F300B85C2A /* PaletteStore.swift */,
+				14349F8D28EC579100B85C2A /* ImagemojiModel.swift */,
+				14349F8F28EC5D3A00B85C2A /* ImagemojiModelBackground.swift */,
+				141882B62909701B007CD2EB /* Camera.swift */,
+				141882B82909705A007CD2EB /* Photo.swift */,
+				141882BA290970C0007CD2EB /* OS.swift */,
+				141882BC290972D2007CD2EB /* Mac.swift */,
+				14349F9328EC64BA00B85C2A /* UtilityExtensions.swift */,
+				14349F9528EC684D00B85C2A /* UtilityViews.swift */,
+				142D6B2C28F03FD100894167 /* Thash.swift */,
 				14349F6728EC56F900B85C2A /* Assets.xcassets */,
 				14349F6928EC56F900B85C2A /* Preview Content */,
 			);
@@ -257,7 +301,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14349F6628EC56F800B85C2A /* ContentView.swift in Sources */,
+				141882B92909705A007CD2EB /* Photo.swift in Sources */,
+				14349F9628EC684D00B85C2A /* UtilityViews.swift in Sources */,
+				142D6B2D28F03FD100894167 /* Thash.swift in Sources */,
+				14349F9828EF09F300B85C2A /* PaletteStore.swift in Sources */,
+				14349F9228EC5F6A00B85C2A /* ImagemojiDocument.swift in Sources */,
+				141882BD290972D2007CD2EB /* Mac.swift in Sources */,
+				142D6B2F28F0405800894167 /* PaletteChooses.swift in Sources */,
+				142D6B3328F0603700894167 /* PaletteManager.swift in Sources */,
+				14349F9028EC5D3A00B85C2A /* ImagemojiModelBackground.swift in Sources */,
+				141882BB290970C0007CD2EB /* OS.swift in Sources */,
+				142D6B3128F04E0700894167 /* PaletteEditor.swift in Sources */,
+				14349F9428EC64BA00B85C2A /* UtilityExtensions.swift in Sources */,
+				14349F8E28EC579100B85C2A /* ImagemojiModel.swift in Sources */,
+				141882B72909701B007CD2EB /* Camera.swift in Sources */,
+				14349F6628EC56F800B85C2A /* ImagemojiDocumentView.swift in Sources */,
 				14349F6428EC56F800B85C2A /* ImagemojiApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -420,6 +478,7 @@
 				DEVELOPMENT_TEAM = 7P3G4Y9CSP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Imagemoji/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -449,6 +508,7 @@
 				DEVELOPMENT_TEAM = 7P3G4Y9CSP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Imagemoji/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
